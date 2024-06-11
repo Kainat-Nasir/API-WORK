@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CALL TASK 2 </title>
+    <link rel="stylesheet" href="stylesapi.css">
+</head>
+<body onload="data()" >
+    <!-- <button onclick="data()">click me</button> -->
+    <div>
+    <select id="select" onchange="DisplaySelectedValue()">
+        <option  disabled selected value="All">user id</option>
+        <option value="All">All</option>
+        
+    </select>
+ </div>
+
+ <div>
+    <select id="select2" onchange="DisplaySelectedValue()" >
+        <option disabled selected value="All">completed</option>
+        <option value="All">All</option>
+        <option value=1>True</option>
+        <option value=0>False</option>
+    </select>
+ </div>
+
+ <div id="containner">
+
+ </div>
+
+</body>
+<script src="API2.js"></script>
+</html>

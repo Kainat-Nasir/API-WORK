@@ -1,0 +1,16 @@
+.product{
+    border: 1px solid black;
+    width: 24%;
+    float: left;
+    margin:5px;
+}
+
+#containner{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
